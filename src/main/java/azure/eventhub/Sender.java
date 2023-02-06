@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Sender {
-    private static final String connectionString = "Endpoint=sb://eventhub-demo-namespace.servicebus.windows.net/;SharedAccessKeyName=send_policy;SharedAccessKey=TQuJptl35ZkOU+o047QL22C1viJE7ph2hWYWPwbJt5k=;EntityPath=eventhub-demo";
+    private static final String connectionString = "<>";
     private static final String eventHubName = "eventhub-demo";
 
     public static void main(String[] args) {

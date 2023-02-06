@@ -14,9 +14,9 @@ import com.azure.storage.blob.BlobContainerClientBuilder;
 import java.util.function.Consumer;
 
 public class Receiver {
-    private static final String connectionString = "Endpoint=sb://eventhub-demo-namespace.servicebus.windows.net/;SharedAccessKeyName=receive_policy;SharedAccessKey=8K+ac9+bqSraj38/3pTfCpMjtREzRQ+UkV7NZJzlPdE=;EntityPath=eventhub-demo";
+    private static final String connectionString = "<>";
     private static final String eventHubName = "eventhub-demo";
-    private static final String storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=az204generalstorage;AccountKey=Zr5BsmUZlA8yrmFYhLiqEnVZY8d/EAQi/bcCT3WLODAKQhcbAAyvT20zBPkaV7iARcJgRho0iuMH+AStWM7F5A==;EndpointSuffix=core.windows.net";
+    private static final String storageConnectionString = "<>";
     private static final String storageContainerName = "az204blob";
 
     public static void main(String[] args) throws Exception {

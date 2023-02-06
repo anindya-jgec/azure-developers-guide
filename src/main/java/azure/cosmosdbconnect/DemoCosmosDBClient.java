@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
 
 public class DemoCosmosDBClient {
     public static final String cosmosDbConnectionString = "https://az204-cosmosdb-demo.documents.azure.com:443/";
-    public static final String cosmosDbDatabaseKey = "bM6A50dkfCKEUeqsAXJvqQKuG3jHgqY5CxHgPyYmzcNsZ4exDvkVnDnmOe7KQwDxTzPsuRb347UUACDbaqTZNA==";
+    public static final String cosmosDbDatabaseKey = "<>";
     public static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
     public static final String _CosmosDbName = "EmployeeManagement";
