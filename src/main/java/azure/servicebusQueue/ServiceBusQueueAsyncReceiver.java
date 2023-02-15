@@ -12,6 +12,10 @@ import java.util.concurrent.atomic.AtomicBoolean;
 /**
  * https://learn.microsoft.com/en-us/java/api/overview/azure/service-bus?view=azure-java-stable
  * https://learn.microsoft.com/en-us/samples/azure/azure-sdk-for-java/servicebus-samples/?source=recommendations
+ *
+ * https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/servicebus/azure-messaging-servicebus/src/samples/java/com/azure/messaging
+ *
+ * This class connects and receives message from ASB - Queue.
  */
 public class ServiceBusQueueAsyncReceiver {
     String connectionString = "Endpoint=sb://apaz204.servicebus.windows.net/;SharedAccessKeyName=receiver-policy;SharedAccessKey=mrmRs3+QxoeqGnFMyHq5w73LvUoq+UKvi+ASbGJb+34=";

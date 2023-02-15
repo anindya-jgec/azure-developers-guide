@@ -14,6 +14,10 @@ import java.util.stream.IntStream;
 /**
  * https://learn.microsoft.com/en-us/java/api/overview/azure/service-bus?view=azure-java-stable
  * https://learn.microsoft.com/en-us/samples/azure/azure-sdk-for-java/servicebus-samples/?source=recommendations
+ *
+ * https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/servicebus/azure-messaging-servicebus/src/samples/java/com/azure/messaging
+ *
+ * This class connects and sends message to ASB - Queue.
  */
 public class ServiceBusQueueAsyncSender {
     String connectionString = "Endpoint=sb://apaz204.servicebus.windows.net/;SharedAccessKeyName=sender-policy;SharedAccessKey=lkhDuSLLdFOoZPlInTWnP/gC1puFD07p0+ASbK7WxRk=";

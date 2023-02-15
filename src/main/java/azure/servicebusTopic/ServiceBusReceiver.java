@@ -15,6 +15,8 @@ import java.util.concurrent.TimeUnit;
  * https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-java-how-to-use-topics-subscriptions
  * https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-java-how-to-use-topics-subscriptions?source=recommendations
  *
+ * https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/servicebus/azure-messaging-servicebus/src/samples/java/com/azure/messaging
+ *
  * This class connects ASB and sends message to a topic.
  * Subscribers read messages from topic.
  */
