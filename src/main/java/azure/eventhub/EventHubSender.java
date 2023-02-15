@@ -8,7 +8,11 @@ import com.azure.messaging.eventhubs.EventHubProducerClient;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Sender {
+/**
+ * This class sends messages to
+ * Azure Event Hubs
+ */
+public class EventHubSender {
     private static final String connectionString = "<>";
     private static final String eventHubName = "eventhub-demo";
 

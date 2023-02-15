@@ -3,6 +3,10 @@ package azure.redisdbconnect;
 import redis.clients.jedis.DefaultJedisClientConfig;
 import redis.clients.jedis.Jedis;
 
+/**
+ * This connect to Azure Cloud Redis DB using Jedis Client.
+ * More related documents on : https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-java-get-started
+ */
 public class DemoRedisClient {
 
     private static final String REDISCACHEHOSTNAME = "<REDIS_HOST>";

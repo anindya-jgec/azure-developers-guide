@@ -13,7 +13,11 @@ import com.azure.storage.blob.BlobContainerClientBuilder;
 
 import java.util.function.Consumer;
 
-public class Receiver {
+/**
+ * This class Receives messages from
+ * EventHub.
+ */
+public class EventHubReceiver {
     private static final String connectionString = "<>";
     private static final String eventHubName = "eventhub-demo";
     private static final String storageConnectionString = "<>";
