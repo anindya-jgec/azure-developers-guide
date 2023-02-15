@@ -20,7 +20,7 @@ import java.util.stream.IntStream;
  * This class connects and sends message to ASB - Queue.
  */
 public class ServiceBusQueueAsyncSender {
-    String connectionString = "Endpoint=sb://apaz204.servicebus.windows.net/;SharedAccessKeyName=sender-policy;SharedAccessKey=lkhDuSLLdFOoZPlInTWnP/gC1puFD07p0+ASbK7WxRk=";
+    String connectionString = "<SAP-Sender-Policy-URL>";
     String queueName = "apaz204-sb-queue";
 
     public static void main(String[] a){

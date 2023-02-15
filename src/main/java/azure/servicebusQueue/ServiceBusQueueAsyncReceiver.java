@@ -18,7 +18,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * This class connects and receives message from ASB - Queue.
  */
 public class ServiceBusQueueAsyncReceiver {
-    String connectionString = "Endpoint=sb://apaz204.servicebus.windows.net/;SharedAccessKeyName=receiver-policy;SharedAccessKey=mrmRs3+QxoeqGnFMyHq5w73LvUoq+UKvi+ASbGJb+34=";
+    String connectionString = "<SAP-Receiver-Policy-URL>";
     String queueName = "apaz204-sb-queue";
 
     /**
