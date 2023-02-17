@@ -22,7 +22,7 @@ import static java.nio.charset.StandardCharsets.UTF_8;
  * - Async mode
  */
 public class ServiceBusQueueSessionAsyncSender {
-    String connectionString = "Endpoint=sb://apaz204.servicebus.windows.net/;SharedAccessKeyName=sender-policy;SharedAccessKey=laUcIgIXsAcDGCcLBN14/y6fW8LFvJFZP+ASbNzMdOg=";
+    String connectionString = "sender-policy";
     String queueName = "apaz204-sb-queue";
 
     /**

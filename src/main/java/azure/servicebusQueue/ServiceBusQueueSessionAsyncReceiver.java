@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
  * - Async mode
  */
 public class ServiceBusQueueSessionAsyncReceiver {
-    String connectionString = "Endpoint=sb://apaz204.servicebus.windows.net/;SharedAccessKeyName=receiver-policy;SharedAccessKey=k11nDvINbimL6m9cpEKGOhrtjqjWtTc5x+ASbEFEx1g=";
+    String connectionString = "<receiver-policy>";
     String queueName = "apaz204-sb-queue";
 
     /**
