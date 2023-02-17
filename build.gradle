@@ -14,6 +14,7 @@ dependencies {
     implementation group: 'redis.clients', name: 'jedis', version: '4.1.0'
     implementation group: 'com.microsoft.azure', name: 'azure-mgmt-servicebus', version: '1.38.0'
     implementation group: 'com.azure', name: 'azure-messaging-servicebus', version: '7.7.0'
+    implementation group: 'com.azure', name: 'azure-storage-blob'
 
     //Azure-Logging Dependencies
     implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.6'
